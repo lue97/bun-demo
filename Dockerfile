@@ -10,4 +10,4 @@ COPY . .
 
 ENV PORT=3000
 
-ENTRYPOINT bun run main index.ts
+ENTRYPOINT bun run index.ts
