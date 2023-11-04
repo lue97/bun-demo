@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <section>
+            <h2>new game</h2>
+            <button tpye="submit" formaction="/chess" formmethod="POST">
+                Create game
+            </button>
+        </section>
+        <section>
+            <h2>Join existing game</h2>
+            <input type="text" name="gameId" size="30" placeholder="Game id here">
+            <button type="submit" formmethod="GET" formaction="/chess">
+                Join game
+            </button>
+        </section>
+    </form>
+</body>
+</html>
